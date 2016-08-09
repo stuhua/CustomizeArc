@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ArcProgress">
+        <attr name="startAngle" format="float" />
+        <attr name="sweepAngle" format="float" />
+
+        <attr name="startColor" format="integer" />
+        <attr name="endColor" format="integer" />
+
+        <attr name="paintWidth" format="float" />
+    </declare-styleable>
+</resources>
