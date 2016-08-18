@@ -11,6 +11,9 @@
 - 覆写onMeasure()方法
 - 覆写onLayout()方法
 
+# 运行
+![效果](/img/show.png)
+
 # 总结
 1. typedArray.recycle(); 需要回收
 2. 像素转换问题dp2px...
