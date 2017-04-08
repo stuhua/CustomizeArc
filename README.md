@@ -30,6 +30,7 @@
 # 演示
 
 # 特点
+![效果](/img/img2.png)
 
 # CHANGELOG
 
