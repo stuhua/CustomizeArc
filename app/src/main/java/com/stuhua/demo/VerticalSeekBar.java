@@ -50,6 +50,7 @@ public class VerticalSeekBar extends SeekBar {
     protected void onSizeChanged(int w, int h, int oldw, int oldh) {
         LogUtils.print("w=" + w + "...h=" + h + "...oldw=" + oldw + "...oldh=" + oldh);
         super.onSizeChanged(h, w, oldh, oldw);
+//        super.onSizeChanged(w,h, oldh, oldw);//如果是这样，Seekbar将点击滑动不了
     }
 
     @Override
@@ -81,7 +82,7 @@ public class VerticalSeekBar extends SeekBar {
                 if (mOnChangeListener != null) {
                     mOnChangeListener.onProgressChanged(this, progress, true);
                 }
-               onSizeChanged(getWidth(), getHeight(), 0, 0);
+                onSizeChanged(getWidth(), getHeight(), 0, 0);
                 setPressed(true);
                 setSelected(true);
                 break;
