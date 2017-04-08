@@ -28,7 +28,6 @@
         android:max="50"
         android:maxWidth="100dip"
         android:minWidth="100dip"
-        android:thumb="@null"
         android:progress="2" />
 
 </LinearLayout>

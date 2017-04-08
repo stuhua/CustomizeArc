@@ -48,6 +48,7 @@ public class VerticalSeekBar extends SeekBar {
 
     @Override
     protected void onSizeChanged(int w, int h, int oldw, int oldh) {
+        LogUtils.print("w=" + w + "...h=" + h + "...oldw=" + oldw + "...oldh=" + oldh);
         super.onSizeChanged(h, w, oldh, oldw);
     }
 
@@ -77,15 +78,10 @@ public class VerticalSeekBar extends SeekBar {
                     progress = getMax();
                 }
                 setProgress(progress); // Draw progress
-                if (progress != mLastProgress) {
-                    // Only enact listener if the progress has actually changed
-                    mLastProgress = progress;
-                    if (mOnChangeListener != null) {
-                        mOnChangeListener.onProgressChanged(this, progress, true);
-                    }
+                if (mOnChangeListener != null) {
+                    mOnChangeListener.onProgressChanged(this, progress, true);
                 }
-
-                onSizeChanged(getWidth(), getHeight(), 0, 0);
+               onSizeChanged(getWidth(), getHeight(), 0, 0);
                 setPressed(true);
                 setSelected(true);
                 break;
