@@ -20,3 +20,16 @@
 1. typedArray.recycle(); 需要回收
 2. 像素转换问题dp2px...
 3. 复写dispatchTouchEvent、onTouchEvent处理滑动冲动问题
+
+----
+
+# 自定义垂直Seekbar,ProgressBar
+
+[![Build Status](https://travis-ci.org/meolu/walle-web.svg?branch=master)](https://travis-ci.org/meolu/walle-web)
+
+# 演示
+
+# 特点
+
+# CHANGELOG
+
