@@ -58,7 +58,7 @@ public class VerticalSeekBar extends SeekBar {
         if (!isEnabled()) {
             return false;
         }
-
+//        drawableHotspotChanged(event.getRawX(), event.getRawY());
         switch (event.getAction()) {
             case MotionEvent.ACTION_DOWN:
                 if (mOnChangeListener != null) {

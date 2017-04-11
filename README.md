@@ -30,7 +30,10 @@
 # 演示
 
 # 特点
+
 ![效果](/img/img2.png)
 
 # CHANGELOG
+
+[采坑之旅](http://www.jianshu.com/p/5f9fa83fe324)
 
